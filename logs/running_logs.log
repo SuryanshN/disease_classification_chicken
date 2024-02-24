@@ -385,3 +385,194 @@ x==========x]
 [2024-02-23 20:47:16,268: INFO: main: >>>>>> stage Training completed <<<<<<
 
 x==========x]
+[2024-02-24 11:13:58,991: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-02-24 11:13:58,996: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-24 11:13:58,998: INFO: common: created directory at: artifacts]
+[2024-02-24 11:14:26,932: INFO: common: json file saved at: scores.json]
+[2024-02-24 11:21:13,194: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-02-24 11:21:13,200: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-24 11:21:13,202: INFO: common: created directory at: artifacts]
+[2024-02-24 11:21:36,868: INFO: common: json file saved at: scores.json]
+[2024-02-24 11:29:18,810: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-02-24 11:29:18,814: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-02-24 11:29:18,816: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-24 11:29:18,817: INFO: common: created directory at: artifacts]
+[2024-02-24 11:29:18,817: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-02-24 11:29:23,957: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: C468:A04A4:95F741:A3F589:65D985B6
+Accept-Ranges: bytes
+Date: Sat, 24 Feb 2024 05:59:20 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4737-BOM
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1708754360.869093,VS0,VE803
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 15c3318b8b11bef8a69c4a8733a322fd86c6ad65
+Expires: Sat, 24 Feb 2024 06:04:20 GMT
+Source-Age: 0
+
+]
+[2024-02-24 11:29:24,393: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-02-24 11:29:24,393: INFO: main: *******************]
+[2024-02-24 11:29:24,394: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-02-24 11:29:24,399: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-02-24 11:29:24,403: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-24 11:29:24,405: INFO: common: created directory at: artifacts]
+[2024-02-24 11:29:24,406: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-02-24 11:29:25,141: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-02-24 11:29:25,499: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-02-24 11:29:25,500: INFO: main: *******************]
+[2024-02-24 11:29:25,500: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-02-24 11:29:25,504: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-02-24 11:29:25,506: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-24 11:29:25,507: INFO: common: created directory at: artifacts]
+[2024-02-24 11:29:25,510: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-02-24 11:29:25,514: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-02-24 11:29:25,522: INFO: common: created directory at: artifacts\training]
+[2024-02-24 11:49:14,922: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-02-24 11:49:14,933: INFO: main: *******************]
+[2024-02-24 11:49:14,934: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-02-24 11:49:14,968: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-02-24 11:49:14,977: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-24 11:49:14,983: INFO: common: created directory at: artifacts]
+[2024-02-24 11:50:01,270: INFO: common: json file saved at: scores.json]
+[2024-02-24 11:50:01,272: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-02-24 11:57:42,715: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-02-24 11:57:42,718: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-02-24 11:57:42,719: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-24 11:57:42,720: INFO: common: created directory at: artifacts]
+[2024-02-24 11:57:42,721: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-02-24 11:57:47,040: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: C468:A04A4:95F741:A3F589:65D985B6
+Accept-Ranges: bytes
+Date: Sat, 24 Feb 2024 06:27:44 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4746-BOM
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1708756064.769076,VS0,VE237
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 65eb8d8e8cf57e527120f8ebe0a3ee1ff2cf6a7b
+Expires: Sat, 24 Feb 2024 06:32:44 GMT
+Source-Age: 0
+
+]
+[2024-02-24 11:57:47,563: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-02-24 11:58:20,369: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-02-24 11:58:20,372: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-02-24 11:58:20,374: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-24 11:58:20,375: INFO: common: created directory at: artifacts]
+[2024-02-24 11:58:20,375: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-02-24 11:58:20,376: INFO: data_ingestion: File already exists of size: ~ 11345 KB]
+[2024-02-24 11:58:20,834: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-02-24 12:07:56,423: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-02-24 12:07:56,426: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-02-24 12:07:56,427: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-24 12:07:56,428: INFO: common: created directory at: artifacts]
+[2024-02-24 12:07:56,428: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-02-24 12:08:00,698: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: C468:A04A4:95F741:A3F589:65D985B6
+Accept-Ranges: bytes
+Date: Sat, 24 Feb 2024 06:37:57 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4750-BOM
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1708756677.352716,VS0,VE248
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: ac16bee8399616a8ec0a8922cd7cdcbfdcab80d2
+Expires: Sat, 24 Feb 2024 06:42:57 GMT
+Source-Age: 0
+
+]
+[2024-02-24 12:08:01,223: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-02-24 12:08:20,214: INFO: stage_02_prepare_base_model: *******************]
+[2024-02-24 12:08:20,215: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model started <<<<<<]
+[2024-02-24 12:08:20,223: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-02-24 12:08:20,228: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-24 12:08:20,229: INFO: common: created directory at: artifacts]
+[2024-02-24 12:08:20,230: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-02-24 12:08:21,640: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-02-24 12:08:22,141: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-02-24 12:08:28,148: INFO: stage_03_training: *******************]
+[2024-02-24 12:08:28,149: INFO: stage_03_training: >>>>>> stage Training started <<<<<<]
+[2024-02-24 12:08:28,151: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-02-24 12:08:28,153: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-24 12:08:28,154: INFO: common: created directory at: artifacts]
+[2024-02-24 12:08:28,157: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-02-24 12:08:28,157: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-02-24 12:08:28,160: INFO: common: created directory at: artifacts\training]
+[2024-02-24 12:31:55,348: INFO: stage_03_training: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-02-24 12:32:02,286: INFO: stage_04_evaluation: *******************]
+[2024-02-24 12:32:02,287: INFO: stage_04_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-02-24 12:32:02,289: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-02-24 12:32:02,291: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-24 12:32:02,293: INFO: common: created directory at: artifacts]
+[2024-02-24 12:32:47,163: INFO: common: json file saved at: scores.json]
+[2024-02-24 12:32:47,169: INFO: stage_04_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-02-24 12:57:18,748: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.29.23:80]
+[2024-02-24 12:57:18,749: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-02-24 12:58:13,845: INFO: _internal: 127.0.0.1 - - [24/Feb/2024 12:58:13] "GET / HTTP/1.1" 200 -]
+[2024-02-24 13:01:27,977: INFO: _internal: 127.0.0.1 - - [24/Feb/2024 13:01:27] "POST /predict HTTP/1.1" 200 -]
+[2024-02-24 13:01:35,869: INFO: _internal: 127.0.0.1 - - [24/Feb/2024 13:01:35] "GET / HTTP/1.1" 200 -]
+[2024-02-24 13:01:54,265: INFO: _internal: 127.0.0.1 - - [24/Feb/2024 13:01:54] "POST /predict HTTP/1.1" 200 -]
